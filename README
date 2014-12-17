@@ -1,0 +1,6 @@
+sudo docker build -t empty
+
+$ sudo docker run --rm empty ls /code/woo
+$ sudo docker run --rm empty cat /code/woo/yay
+cat: can't open '/code/woo/yay': No such file or directory
+
